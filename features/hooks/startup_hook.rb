@@ -2,6 +2,7 @@ Before '@startup' do
     @nome = Faker::Company.name
     @cidade = Faker::Address.city
 
+    # body
     @body = {
         "nome": @nome,
         "cidade": @cidade
